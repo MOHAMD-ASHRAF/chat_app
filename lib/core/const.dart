@@ -1,0 +1,2 @@
+
+const kMessageCollection = 'messages';
