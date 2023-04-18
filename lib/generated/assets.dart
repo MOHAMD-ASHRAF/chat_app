@@ -2,6 +2,12 @@
 class Assets {
   Assets._();
 
+  static const String authBlocAuthBloc = 'lib/bloc/auth_bloc/auth_bloc.dart';
+  static const String authBlocAuthEvent = 'lib/bloc/auth_bloc/auth_event.dart';
+  static const String authBlocAuthState = 'lib/bloc/auth_bloc/auth_state.dart';
+  static const String coreColorConst = 'lib/core/color_const.dart';
+  static const String coreConst = 'lib/core/const.dart';
+  static const String generatedAssets = 'lib/generated/assets.dart';
   static const String imageFacebook = 'assets/image/facebook.png';
   static const String imageGoogle = 'assets/image/google.png';
   static const String imageLogo = 'assets/image/logo.png';
@@ -9,5 +15,19 @@ class Assets {
   static const String imageLogo2 = 'assets/image/logo2.png';
   static const String imageUser = 'assets/image/user.png';
   static const String imageWhatsImage = 'assets/image/whats_image.png';
+  static const String libFirebaseOptions = 'lib/firebase_options.dart';
+  static const String libMain = 'lib/main.dart';
+  static const String modelsMessageModel = 'lib/features/models/message_model.dart';
+  static const String pagesHomePage = 'lib/features/presentation/pages/home_page.dart';
+  static const String pagesLoginPage = 'lib/features/presentation/pages/login_page.dart';
+  static const String pagesRegisterPage = 'lib/features/presentation/pages/register_page.dart';
+  static const String widgetChatBauble = 'lib/features/presentation/widget/chat_bauble.dart';
+  static const String widgetContainerButtonWidget = 'lib/features/presentation/widget/container_button_widget.dart';
+  static const String widgetContainerImageWidget = 'lib/features/presentation/widget/Container_image_widget.dart';
+  static const String widgetHeaderWidget = 'lib/features/presentation/widget/headerWidget.dart';
+  static const String widgetRowTextWidget = 'lib/features/presentation/widget/row_text_widget.dart';
+  static const String widgetShowSnakbar = 'lib/features/presentation/widget/show_snakbar.dart';
+  static const String widgetTextfieldContainerWidget = 'lib/features/presentation/widget/textfield_container_widget.dart';
+  static const String widgetTextfieldPasswordContainerWidget = 'lib/features/presentation/widget/textfield_password_container_widget.dart';
 
 }
